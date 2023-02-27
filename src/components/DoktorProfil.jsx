@@ -84,7 +84,7 @@ const DoktorProfil = ({
           </button>
         </form>
       </div>
-      <div className={`bg-red-500 mt-10 container rounded-lg mx-auto py-1 text-left ${hastalar.length === 0 && 'hidden'}`}>
+      <div className={`bg-red-500 mt-10 container rounded-lg mx-auto py-1 text-left  ${hastalar.length === 0 && 'hidden'}`}>
         {hastalar
           .filter((h) => h.doktor === sellectedDoktor.isim)
           .map((x) => (
