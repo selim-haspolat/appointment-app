@@ -9,7 +9,7 @@ const HastaCard = ({id,text,day,bittiMi,doktor,setHastalar,hastalar}) => {
   }
 
   return (
-    <div onClick={() => setBittimi(!bittimi)} className={`flex justify-between items-center w-[90%] h-20 bg-white mx-auto my-3 rounded-lg px-3 cursor-pointer  ${bittimi ? "bg-green-400" : "bg-red-300"}`}>
+    <div onClick={() => setBittimi(!bittimi)} className={`flex justify-between items-center w-[90%] h-20 mx-auto my-3 rounded-lg px-3 cursor-pointer  ${bittimi ? "bg-green-300" : "bg-red-200"}`}>
       <div>
         <p>{text}</p>
         <p>{day}</p>
